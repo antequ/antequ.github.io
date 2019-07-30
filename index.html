@@ -82,10 +82,10 @@
             <br>
             Office: Gates 376
           </div>
-          <p>I am a second-year PhD student in the Computer Science department at Stanford University, where I am advised by <a href="http://graphics.stanford.edu/~djames/">Doug L. James</a> and am fortunate to be supported by a <a href="http://nsfgrfp.org/">NSF Graduate Research Fellowship</a>.</p>
+          <p>I am a fourth-year PhD student in the Computer Science department at Stanford University, where I am advised by <a href="http://graphics.stanford.edu/~djames/">Doug L. James</a> and am fortunate to be supported by a <a href="http://nsfgrfp.org/">NSF Graduate Research Fellowship</a>.</p>
           <p>My primary research interests are in physics simulations for computer graphics. I develop numerical simulations to synthesize sound for computer animations.</p>
-          <p>I was formerly a full-time software engineer at Microsoft, where I worked on the Office Graphics (PowerPoint, Word, Excel) team. I graduated in 2015 with an AB in Physics from Princeton University, where I was advised by <a href="http://www.princeton.edu/~jasonf/">Jason Fleischer</a>. I have also worked on research projects at <a href="http://www.cs.columbia.edu/cg/">Columbia University</a>, the <a href="https://theory.pppl.gov/research/research.php?rid=3">Priceton Plasma Physics Lab</a>, and <a href="https://research.adobe.com/">Adobe Research</a>.</p>
-          <p>Outside of work, I also enjoy board games, bridge, hiking, and food.</p>
+          <p>I was formerly a full-time software engineer at Microsoft, where I worked on the Office Graphics (PowerPoint, Word, Excel) team. I graduated in 2015 with an AB in Physics from Princeton University, where I was advised by <a href="http://www.princeton.edu/~jasonf/">Jason Fleischer</a>. I have also worked on research projects at <a href="http://www.cs.columbia.edu/cg/">Columbia University</a>, the <a href="https://theory.pppl.gov/research/research.php?rid=3">Priceton Plasma Physics Lab</a>, <a href="https://research.adobe.com/">Adobe Research</a>, and the <a href="https://www.tri.global/">Toyota Research Institute</a>.</p>
+          <p>Outside of work, I also enjoy board games, bridge, hiking, Star Trek, and food.</p>
           <ul class="list-inline list-social-icons mb-0">
    <!--         <li class="list-inline-item">
               <a href="https://twitter.com/ante_qu">
@@ -122,8 +122,35 @@ document.getElementById("emailhere").innerHTML = 'ant' + 'eq' + 'u@c' + 's.sta' 
         <div class="my-auto">
           <h2 class="mb-5">Research</h2>
 
-<div class="h3 sec-header">Publications</div>
+<div class="h3 sec-header">Peer-Reviewed Publications and Conference Proceedings</div>
         <hr class="sec-div">
+        <!-- SIGGRAPH Wavesolver div -->
+        <div class="row row-pad" display="inline-block">
+          <div class="teaser-column" align="center">
+               <img class="pubImg img-responsive" src="assets/projects/ground/teaser.png"/>
+          </div>
+          <div class="col-sm-7">
+              <div class="pub-title">On the Impact of Ground Sound</div>
+              <div class="authors">Ante Qu and Doug L. James</div>
+              <div class="venue">2019, Proceedings of the 22nd International Conference on Digital Audio Effects (DAFx 2019)</div>
+              <button type="button" class="btn btn-default btn-margin" data-toggle="collapse" data-target="#groundAbstract">Abstract</button>
+              <a href="assets/projects/ground/GroundSound_Combined.pdf" class="btn btn-default btn-margin">PDF</a>
+              <a href="http://graphics.stanford.edu/papers/ground/" class="btn btn-default btn-margin">Project Webpage</a>
+              <div id="groundAbstract" class="collapse small">
+                  Rigid-body impact sound synthesis methods often omit the ground sound. In this
+                  paper we analyze an idealized ground-sound model based on an elastodynamic
+                  halfspace, and use it to identify scenarios wherein ground sound is perceptually
+                  relevant versus when it is masked by the impacting object’s modal sound or
+                  transient acceleration noise. Our analytical model gives a smooth, closed-form
+                  expression for ground surface acceleration, which we can then use in the Rayleigh
+                  integral or in an “acoustic shader” for a finite-difference time-domain wave
+                  simulation. We find that when modal sound is inaudible, ground sound is audible
+                  in scenarios where a dense object impacts a soft ground and scenarios where the
+                  impact point has a low elevation angle to the listening point. 
+              </div>
+          </div>
+      </div>
+      <p class="pubVSpace"></p>
         <!-- SIGGRAPH Wavesolver div -->
         <div class="row row-pad" display="inline-block">
             <div class="teaser-column" align="center">
@@ -294,7 +321,7 @@ data shows that the fully-optimized CUDA Fortran version is 53.6 times faster th
     </div>
 
     <div id="footer">
-      <p>&nbsp;&nbsp;&nbsp;&nbsp;Last Updated: Sept 24, 2018</p>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;Last Updated: July 30, 2019</p>
     </div>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
