@@ -1,1 +1,2 @@
-@ARTICLE{8972362,  author={A. M. {Castro} and A. {Qu} and N. {Kuppuswamy} and A. {Alspach} and M. {Sherman}},  journal={IEEE Robotics and Automation Letters},  title={A Transition-Aware Method for the Simulation of Compliant Contact With Regularized Friction},   year={2020},  volume={5},  number={2},  pages={1859--1866},  doi = {10.1109/LRA.2020.2969933},}
+@ARTICLE{castro2020atransition,  author={A. M. {Castro} and A. {Qu} and N. {Kuppuswamy} and A. {Alspach} and M. {Sherman}},  journal={IEEE Robotics and Automation Letters},  title={A Transition-Aware Method for the Simulation of Compliant Contact With Regularized Friction},   year={2020},  volume={5},  number={2},  pages={1859--1866},  doi = {10.1109/LRA.2020.2969933},}
+
