@@ -5,7 +5,7 @@ title={A Transition-Aware Method for the Simulation of Compliant Contact With Re
 year={2020},
 volume={5},
 number={2},
-pages={1859-1866},
+pages={1859--1866},
 doi={10.1109/LRA.2020.2969933}
 }
 
