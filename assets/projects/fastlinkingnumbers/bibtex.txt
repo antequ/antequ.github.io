@@ -1,0 +1,18 @@
+@article{qu2021fast,
+  title={Fast linking numbers for topology verification of loopy structures},
+  author={Qu, Ante and James, Doug L.},
+  journal={ACM Trans. Graph.},
+  volume={40},
+  number={4},
+  pages={},
+  articleno={106},
+  year={2021},
+  doi={10.1145/3450626.3459778},
+  issue_date = {August 2021},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  issn = {},
+  month = aug,
+  numpages = {19},
+  keywords = {Topology, checksum, linking number, Gauss linking integral, Barnes-Hut, fast multipole method, yarn-level cloth}
+}

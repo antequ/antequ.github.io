@@ -125,8 +125,53 @@ document.getElementById("emailhere").innerHTML = 'ant' + 'eq' + 'u@c' + 's.sta' 
         <div class="my-auto">
           <h2 class="mb-5">Research</h2>
 
-<div class="h3 sec-header">Publications and Peer-Reviewed Conference Proceedings</div>
+<div class="h3 sec-header">Publications and Refereed Conference Proceedings</div>
         <hr class="sec-div">
+        <!-- FASTLINKINGNUMBERS div -->
+        <div class="row row-pad" display="inline-block">
+          <div class="teaser-column" align="center">
+               <img class="pubImg img-responsive" src="assets/projects/fastlinkingnumbers/RepImage.jpg"/>
+          </div>
+          <div class="col-sm-7">
+              <div class="pub-title">Fast Linking Numbers for Topology Verification of Loopy Structures</div>
+              <div class="authors">Ante Qu and Doug L. James</div>
+              <div class="venue-info">2021, <i>ACM Transactions on Graphics (SIGGRAPH 2021)</i></div>
+              <button type="button" class="btn btn-default btn-margin" data-toggle="collapse" data-target="#fastlinkingnumbersAbstract">Abstract</button>
+              <a href="assets/projects/fastlinkingnumbers/QuJames2021FastLinkingNumbers_Compressed.pdf" class="btn btn-default btn-margin">PDF</a>
+              <a href="https://graphics.stanford.edu/papers/fastlinkingnumbers/" class="btn btn-default btn-margin">Project Webpage</a>
+              <a href="https://youtu.be/CeYeZ6_QgVs" class="btn btn-default btn-margin">Video</a>
+              <button type="button" class="btn btn-default btn-margin" data-toggle="collapse" data-target="#fastlinkingnumbersCite">Cite (text)</button>
+              <a href="assets/projects/fastlinkingnumbers/bibtex.txt" class="btn btn-default btn-margin">Cite (BibTeX)</a>
+              <div id="fastlinkingnumbersAbstract" class="collapse small">
+                It is increasingly common to model, simulate, and process complex
+                materials based on loopy structures, such as in yarn-level cloth
+                garments, which possess topological constraints between inter-looping
+                curves. While the input model may satisfy specific topological linkages
+                between pairs of closed loops, subsequent processing may violate those
+                topological conditions. In this paper, we explore a family of methods
+                for efficiently computing and verifying linking numbers between closed
+                curves, and apply these to applications in geometry processing, animation,
+                and simulation, so as to verify that topological invariants are preserved
+                during and after processing of the input models. Our method has three stages:
+                (1) we identify potentially interacting loop-loop pairs, then (2) carefully
+                discretize each loop's spline curves into line segments so as to enable (3)
+                efficient linking number evaluation using accelerated kernels based on either
+                counting projected segment-segment crossings, or by evaluating the Gauss linking
+                integral using direct or fast summation methods (Barnes-Hut or fast
+                multipole methods). We evaluate CPU and GPU implementations of these methods
+                on a suite of test problems, including yarn-level cloth and chainmail, that
+                involve significant processing: physics-based relaxation and animation,
+                user-modeled deformations, curve compression and reparameterization. We show
+                that topology errors can be efficiently identified to enable more robust
+                processing of loopy structures.
+              </div>
+              <div id="fastlinkingnumbersCite" class="collapse small">Ante Qu and Doug L. James. 2021.
+                 Fast Linking Numbers for Topology Verification of Loopy Structures.
+                 <i>ACM Trans. Graph.</i> 40, 4, Article 106 (August 2021), 19 pages.</div>
+          </div>
+          </div>
+      </div>
+      <p class="pubVSpace"></p>
         <!-- WEAVECRAFT div -->
         <div class="row row-pad" display="inline-block">
           <div class="teaser-column" align="center">
@@ -204,7 +249,7 @@ document.getElementById("emailhere").innerHTML = 'ant' + 'eq' + 'u@c' + 's.sta' 
               <div class="venue-info">2019, <i>Digital Audio Effects (DAFx 2019)</i></div>
               <button type="button" class="btn btn-default btn-margin" data-toggle="collapse" data-target="#groundAbstract">Abstract</button>
               <a href="assets/projects/ground/GroundSound_Combined.pdf" class="btn btn-default btn-margin">PDF</a>
-              <a href="http://graphics.stanford.edu/papers/ground/" class="btn btn-default btn-margin">Project Webpage</a>
+              <a href="https://graphics.stanford.edu/papers/ground/" class="btn btn-default btn-margin">Project Webpage</a>
               <div id="groundAbstract" class="collapse small">
                   Rigid-body impact sound synthesis methods often omit the ground sound. In this
                   paper we analyze an idealized ground-sound model based on an elastodynamic
