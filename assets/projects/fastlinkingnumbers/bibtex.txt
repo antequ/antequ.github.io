@@ -4,7 +4,7 @@
   journal={ACM Trans. Graph.},
   volume={40},
   number={4},
-  pages={},
+  pages={106:1--106:19},
   articleno={106},
   year={2021},
   doi={10.1145/3450626.3459778},
@@ -12,7 +12,7 @@
   publisher = {Association for Computing Machinery},
   address = {New York, NY, USA},
   issn = {},
-  month = aug,
+  month = {aug},
   numpages = {19},
-  keywords = {Topology, checksum, linking number, Gauss linking integral, Barnes-Hut, fast multipole method, yarn-level cloth}
+  keywords = {Topology, checksum, linking number, Gauss linking integral, Barnes--Hut, fast multipole method, yarn-level cloth}
 }
